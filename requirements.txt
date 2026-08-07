@@ -1,0 +1,21 @@
+# ── Core ──────────────────────────────────────────
+click>=8.1.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# ── AI APIs ───────────────────────────────────────
+openai>=1.12.0
+anthropic>=0.21.0
+
+# ── Local LLM Orchestration ─────────────────────────
+ollama>=0.1.7
+
+# ── CLI Experience ────────────────────────────────
+rich>=13.7.0
+pydantic>=2.5.0
+
+# ── Voice Input (Optional) ────────────────────────
+# Uncomment to enable voice task submission:
+# openai-whisper>=20231117
+# sounddevice>=0.4.6
+# numpy>=1.26.0
